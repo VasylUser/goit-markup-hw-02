@@ -1,9 +1,10 @@
 .body {
-    font-family: "Robotico", serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     background-color: white;
+    letter-spacing: 0.02em;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);            
 }
 ul {
@@ -13,15 +14,22 @@ a {
     text-decoration: none;    
 }
 .logo {
-    color: #2E2F42;
+    color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
-.logo-part-one {
-    color: #4D5AE5;
+.logo-part {
+    color: #2E2F42;
 }
 .list-menu a {
     color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 .list-menu a:hover, .list-menu a:focus {
     color: #404BBF;
@@ -30,9 +38,13 @@ a {
     text-decoration: underline;
 }
 .contacts {
-    color: #434455;
+    font-style: normal;    
 }
-.contacts:hover, .contacts:focus {
+.contacts-link {
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.contacts-link:hover, .contacts-link:focus {
     color: #404BBF;
 }
 .section-hero {
@@ -42,7 +54,10 @@ a {
     font-size: 56px;
     font-weight: bold;
     line-height: 60px;
-    color: white;  
+    color: white;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em
 }
 .button-hero {
     background-color: #4D5AE5;
@@ -50,30 +65,39 @@ a {
     font-weight: 500;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
 .button-hero:hover, .button-hero:focus {
     background-color: #404BBF;
 }
-.title-hiden {
+/* .title-hiden {
     display: none;
-}
+} */
 .title-name {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
 }
 .text-section {
-    color: #434455;    
+    color: #434455;
+    letter-spacing: 0.02em;
 }
 .section-team {
-    background-color: #F4F4FD;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+    background-color: #F4F4FD;    
 }
 .section-title {
     font-size: 36px;
     font-weight: 700;
     color: #2E2F42;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .cards {
     background-color: white;    
@@ -83,8 +107,9 @@ a {
 }
 .footer-advice {
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
-.logo-part-two {
+.logo-part-footer {
     color: #F4F4FD;        
 }
 
