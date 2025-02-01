@@ -26,15 +26,15 @@ a {
 .logo-part {
     color: #2E2F42;
 }
-.list-menu a {
+.link, .studio-link {
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.list-menu a:hover, .list-menu a:focus {
+.link:hover, .link:focus, .studio-link:hover, .studio-link:focus {
     color: #404BBF;
 }
-.studio:active {
+.studio-link:active {
     text-decoration: underline;
 }
 .contacts {
@@ -72,9 +72,7 @@ a {
 .button-hero:hover, .button-hero:focus {
     background-color: #404BBF;
 }
-/* .title-hiden {
-    display: none;
-} */
+
 .title-name {
     color: #2E2F42;
     font-size: 20px;
