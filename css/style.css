@@ -1,0 +1,91 @@
+.body {
+    font-family: "Robotico", serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: white;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);            
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;    
+}
+.logo {
+    color: #2E2F42;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo-part-one {
+    color: #4D5AE5;
+}
+.list-menu a {
+    color: #2E2F42;
+}
+.list-menu a:hover, .list-menu a:focus {
+    color: #404BBF;
+}
+.studio:active {
+    text-decoration: underline;
+}
+.contacts {
+    color: #434455;
+}
+.contacts:hover, .contacts:focus {
+    color: #404BBF;
+}
+.section-hero {
+    background-color: #2E2F42;
+}
+.title-hero {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 60px;
+    color: white;  
+}
+.button-hero {
+    background-color: #4D5AE5;
+    color: white;    
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.button-hero:hover, .button-hero:focus {
+    background-color: #404BBF;
+}
+.title-hiden {
+    display: none;
+}
+.title-name {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.text-section {
+    color: #434455;    
+}
+.section-team {
+    background-color: #F4F4FD;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2E2F42;
+}
+.cards {
+    background-color: white;    
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer-advice {
+    color: #F4F4FD;
+}
+.logo-part-two {
+    color: #F4F4FD;        
+}
+
+
