@@ -26,16 +26,13 @@ a {
 .logo-part {
     color: #2E2F42;
 }
-.link, .studio-link {
+.link {
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.link:hover, .link:focus, .studio-link:hover, .studio-link:focus {
+.link:hover, .link:focus {
     color: #404BBF;
-}
-.studio-link:active {
-    text-decoration: underline;
 }
 .contacts {
     font-style: normal;    
